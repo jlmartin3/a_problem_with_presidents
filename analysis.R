@@ -96,7 +96,7 @@ write.csv(ten_longest, "ten_longest.csv") # write out
 ten_shortest <-  df[order(df$lived_days, decreasing = FALSE)[1:10],]
 ten_shortest <- ten_shortest[keep_colnames] # drop other columns
 
-write.csv(ten_longest, "ten_shortest.csv") # write out
+write.csv(ten_shortest, "ten_shortest.csv") # write out
 
 ################ stats tables ###########
   
