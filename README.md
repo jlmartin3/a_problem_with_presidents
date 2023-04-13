@@ -32,7 +32,10 @@ ten_shortest
 
 You can also embed plots, for example:
 
-<a href=" https://github.com/jlmartin3/a_problem_with_presidents/blob/main/histogram.png"><img class="book" src="![image](https://github.com/jlmartin3/a_problem_with_presidents/blob/main/histogram.png)"   height="400"></a>
+<a href="https://raw.githubusercontent.com/jlmartin3/a_problem_with_presidents/main/histogram.png"><img class="book" src="![image](https://raw.githubusercontent.com/jlmartin3/a_problem_with_presidents/main/histogram.png)"   height="400"></a>
+
+
+https://raw.githubusercontent.com/jlmartin3/a_problem_with_presidents/main/histogram.png
 
 
 
