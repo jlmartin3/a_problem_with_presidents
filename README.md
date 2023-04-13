@@ -1,12 +1,16 @@
 ---
-title: "Presidents Analysis"
+title: "A Problem with Presidents"
 author: "James Martin"
 date: "2023-04-13"
 ---
 
+## The Longevity of Presidents
 
+When trying to better understand human longevity and how it has changed throughout the centuries, it is helpful to draw a sample from a larger population. The United States has existed for about 250 years and Heads of State have typically served for 4 to 8 years. People serving in this role come from similar professional and institutional backgrounds and perhaps were exposed to similar environmental stressors. For the purposes of this analysis former presidents who are currently alive are excluded. For any given timespan we only count full units of the timespan that were lived by the individual. 
 
 ## Ten Longest Lived Presidents
+
+An immediately interesting fact is that many of the longest living presidents were born in the 18th century. Upon first glance, statistics on human longevity may lead one to believe that people died much younger in the past. While this is somewhat true, improvements in human longevity are less marked when childhood mortality is accounted for. This is especially true when examining individuals who lived in relative comfort without occupational or sanitary hazards. 
 
 | President           | Birth Date   | Birth Place         | Death Date   | Death Place           | Lived Years |
 |---------------------|--------------|----------------------|---------------|--------------------------|---------------|
@@ -24,6 +28,8 @@ date: "2023-04-13"
  
  ## Ten Shortest Lived Presidents
  
+Many of the shortest-lived presidents were born during the 19th century which was a period of rapid change both in how humans lived but also in the prominence of the United States as a nation. Examining some of these individuals is helpful in illustrating these changes. Abraham Lincoln’s died prematurely as at the hand of an assassin at the close of the Civil War, which represented the growing pains of a rapidly growing nation. Many of the preventative measures in place the protect the American president were not implemented until the later half of the 20th century. James Garfield and John F. Kennedy likewise died as the result of assassin. Chester Arthur and Theodore Roosevelt were both overweight before obesity and heart disease were common health concerns.  
+ 
  | President | Birth Date   | Birth Place             | Death Date   | Death Place          | Lived Years |
 |----------|--------------|------------------------|--------------|----------------------|-------------|
 | John F. Kennedy   | 1917-05-29 | Brookline, Mass.       | 1963-11-22   | Dallas, Texas        | 46          |
@@ -40,6 +46,8 @@ date: "2023-04-13"
  
  ## Summary Statistics for Lifespans
  
+The distribution of lifespans (in days) takes on a fairly normal distribution, however some long living individuals skew the distribution to the left as evidenced by the discrepancy between median and mean. There is no mode as each value is unique in the dataset, however a mode could be calculated if the data were placed into bins. Mean values aren't weighted because no addtional variables were avaiable. 
+ 
  | Metric | Value     |
 | ------ | --------- |
 | mean   | 26097.18  |
@@ -52,10 +60,14 @@ date: "2023-04-13"
 
 ## Distibution of Lifespans
 
-You can also embed plots, for example:
+In this histogram 10 bins are used to visualize the distribution; outlier long individuals are seen at the right tail.
 
  
 ![alt text](https://github.com/jlmartin3/a_problem_with_presidents/blob/main/histogram.png?raw=true)
+
+## In Short
+
+Unfortunately, the United States hasn’t existed long enough to provide enough individuals to make highly confident conclusions about human longevity, even for American Heads of State. However, it is interesting to analyze a group of well-known individuals, in a similar role while juxtaposed with the rapid changes the way humans live over the course of America’s history.
 
 
 
