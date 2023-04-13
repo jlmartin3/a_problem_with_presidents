@@ -32,9 +32,6 @@ ten_shortest
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-![Alt Text](histogram.png)
-
-```
+<a href="https://bookdown.org/yihui/rmarkdown/"><img class="book" src="https://bookdown.org/yihui/rmarkdown/images/cover.png" alt="R Markdown: The Definitive Guide" height="400"></a>
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
