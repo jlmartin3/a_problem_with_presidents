@@ -32,6 +32,6 @@ ten_shortest
 
 You can also embed plots, for example:
 
-<a href="https://bookdown.org/yihui/rmarkdown/"><img class="book" src="https://bookdown.org/yihui/rmarkdown/images/cover.png" alt="R Markdown: The Definitive Guide" height="400"></a>
+<a href="https://bookdown.org/yihui/rmarkdown/"><img class="book" src="![image](https://user-images.githubusercontent.com/32075067/231620689-79f2586b-5695-468a-90bf-df4519e7040f.png)"   height="400"></a>
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
